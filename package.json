@@ -1,7 +1,7 @@
 {
   "name": "smartstock-pro",
   "version": "1.0.0",
-  "description": "SmartStock Pro — gestion de stock et comptabilité multi-boutiques (Patron / Gestionnaire de stock / Vendeur / Caissier), backend Supabase.",
+  "description": "SmartStock Pro — gestion de stock et comptabilité multi-boutiques.",
   "private": true,
   "type": "module",
   "scripts": {
@@ -10,7 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@supabase/supabase-js": "^2.45.0"
+    "@supabase/supabase-js": "^2.45.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "vite": "^5.4.0",
